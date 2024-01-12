@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <style>
+        .container-calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 20px;
+            align-items: center;
+
+        }
+
+        .box {
+            border: 2px solid salmon;
+            width: 30%;
+            height: 120%;
+            font-size: 22px;
+            font-weight: 700;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50PX;
+        }
+
+        .box1 {
+            border: 2px solid salmon;
+            width: 100%;
+            height: 120%;
+            font-size: 24px;
+            font-weight: 700;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(187, 186, 186);
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        .text h2 {
+            text-align: center;
+            margin-bottom: 50px;
+            color: black;
+            /* text-decoration: underline; */
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 900;
+            font-size: 36px;
+            background-color: coral;
+            width: 45%;
+            border-radius: 8px;
+            /* text-transform:uppercase; */
+        }
+
+        .text {
+            display: flex;
+            justify-content: center;
+        }
+
+        .container-calendar .box:hover{
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+            transition: all 1s;
+            background-color: rgb(242, 146, 19);
+        }
+        .container-calendar .box1:hover{
+        cursor: pointer;
+        background-color: darkorange;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        }
+        .text h2:hover{
+        font-display: none;
+        cursor: pointer;
+        transition: all 1s;
+        background-color: darkviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="text">
+                <h2>This Is My Personal Calendar</h2>
+            </div>
+            <div class="container-calendar">
+
+                <div class="box1">SUNDAY</div>
+                <div class="box1">MONDAY</div>
+                <div class="box1">TUESDAY</div>
+                <div class="box1">WEDNESDAY</div>
+                <div class="box1">THURSDAY</div>
+                <div class="box1">FIRDAY</div>
+                <div class="box1">SATURDAY</div>
+                <div class="box">01</div>
+                <div class="box">02</div>
+                <div class="box">03</div>
+                <div class="box">04</div>
+                <div class="box">05</div>
+                <div class="box">06</div>
+                <div class="box">07</div>
+                <div class="box">08</div>
+                <div class="box">09</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+                <div class="box">31</div>
+                <div class="box">01</div>
+                <div class="box">02</div>
+                <div class="box">03</div>
+                <div class="box">04</div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

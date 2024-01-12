@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Site</title>
+    <style>
+        .Haed-var {
+            display: flex;
+            justify-content: space-around;
+            /* gap: 30px; */
+        }
+
+        .Haed-var a {
+            text-decoration: none;
+            font-size: 28px;
+            color: black;
+            /* word-spacing: 200px; */
+            margin-left: 20px;
+        }
+
+        button {
+            background-color: crimson;
+            border-radius: 5px;
+            border: none;
+
+        }
+
+        button .btn {
+            padding-right: 10px;
+            color: white;
+        }
+
+        .container-form form {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            border: 5px solid antiquewhite;
+            background-color: antiquewhite;
+            gap: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .container-form form input{
+            height: 30px;
+            border: none;
+            border-radius: 12px;
+        }
+        .container-form form .btn-log input{
+                width: 30%;
+                font-weight: 700;
+                font-size: 22px;
+                color: aliceblue;
+                background-color: rgb(7, 7, 162);
+        }
+        .container-form{
+           
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            
+        }
+        /* .ctn{
+            border: 5px solid salmon;
+            /* display: flex;
+            flex-direction: column;
+            justify-content: center; */
+           
+        
+     
+    </style>
+</head>
+
+<body>
+    <section>
+        <nav class="Haed-var">
+            <div class="container-nav">
+                <a href="">Home</a>
+                <a href="">Videos</a>
+                <a href="">About</a>
+                <a href="">Details</a>
+            </div>
+            <button><a class="btn" href="">Login</a></button>
+        </nav>
+    </section>
+    <section class="container-section">
+      <div class="ctn">
+        <div class="container-form">
+            <form>
+                <h2>Please Login</h2>
+                <input type="email" placeholder="Your E-mail" required>
+                <input type="password" placeholder="Your Password" required>
+               <div class="btn-log"> <input type="submit" value="Sing Up"></div>
+            </form>
+        </div>
+      </div>
+    </section>
+</body>
+
+</html>
