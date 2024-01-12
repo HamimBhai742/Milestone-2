@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        .container-img img{
+            width: 100%;
+            /* border: 10px dotted greenyellow;
+            gap: 10px; */
+        }
+        .container-img{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        @media screen and (max-width:646px) {
+            .container-img{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="container-img">
+                <img src="https://images.pexels.com/photos/19712206/pexels-photo-19712206/free-photo-of-large-christmas-tree-on-street.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <img src="https://images.pexels.com/photos/19720978/pexels-photo-19720978/free-photo-of-view-of-a-colorful-hot-air-balloon-in-cappadocia-turkey.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <img src="https://images.pexels.com/photos/2759315/pexels-photo-2759315.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <img src="https://images.pexels.com/photos/1567614/pexels-photo-1567614.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <img src="./B9A1-New-Year-New-Mission/resources/pexels-george-desipris-945177.jpg" alt="">
+                <img src="./B9A1-New-Year-New-Mission/resources/pexels-george-desipris-9dsdf45177.jpg" alt="">
+                <img src="./B9A1-New-Year-New-Mission/resources/pexels-james-wheeler-3774243.jpg" alt="">
+                <img src="https://images.pexels.com/photos/19720978/pexels-photo-19720978/free-photo-of-view-of-a-colorful-hot-air-balloon-in-cappadocia-turkey.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <img src="https://images.pexels.com/photos/19712206/pexels-photo-19712206/free-photo-of-large-christmas-tree-on-street.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                <img src="https://images.pexels.com/photos/3810902/pexels-photo-3810902.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
