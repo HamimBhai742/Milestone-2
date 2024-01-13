@@ -1,0 +1,89 @@
+.banner-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #F5C044;
+    display: flex;
+    margin-left: 60px;
+}
+.banner-txt p,h2{
+    margin-left: 60px;
+}
+.banner-txt h2 {
+    font-family: "Sora", sans-serif;
+    font-size: 2.25rem;
+}
+
+.banner-txt p {
+    font-family: "Sora", sans-serif;
+    font-size: 1.25rem;
+    max-width: 450px;
+}
+
+.banner-txt li {
+    font-family: "Sora", sans-serif;
+    font-size: 1rem;
+    list-style: none;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.google-img {
+    background-color: #D4D4D8;
+    border-radius: 12px;
+    padding: 15px;
+    width: 35%;
+    margin-bottom: 30px;
+    margin-left: 400px;
+}
+.google-img #googleimg{
+    width: 30%;
+}
+.google-img h3 {
+    font-family: "Sora", sans-serif;
+    font-size: 1.25rem;
+}
+
+.google-img p {
+    font-family: "Sora", sans-serif;
+    font-size: 0.875rem;
+}
+
+.facebook-img {
+    background-color: #D4D4D8;
+    border-radius: 12px;
+    padding: 15px;
+    width: 35%;
+    margin-left: 200px;
+}
+.facebook-img #meta{
+    width: 29%;
+}
+.facebook-img h3 {
+    font-family: "Sora", sans-serif;
+    font-size: 1.25rem;
+}
+
+.facebook-img p {
+    font-family: "Sora", sans-serif;
+    font-size: 0.875rem;
+}
+.container{
+    display: flex;
+    
+}
+@media screen and (max-width:576px) {
+    .container{
+         flex-direction: column;
+    }
+    .google-img{
+       margin-left: -1px;
+       margin-left: 150px;
+        width: 60%;
+    }
+    .facebook-img{
+        width: 60%;
+        margin-left: -1px;
+       margin-left: 50px;
+    }
+}
