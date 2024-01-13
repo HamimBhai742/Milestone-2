@@ -4,39 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tempelet</title>
+    <title>Task 1</title>
     <style>
-        .container-child-1 {
-            background-color: chocolate;
-            /* border-radius: 8px; */
-            height: 100%;
-            width: 50%;
+        .contaner{
+        
+            margin: auto;
         }
-
-        .container-child-2 {
-            background-color: rgb(255, 4, 4);
-            /* border-radius: 8px; */
-            height: 50%;
-            width: 50%;
-        }
-
-        .child-1 {
-            display: flex;
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 700px);
             gap: 10px;
         }
 
-        .ctn-child-2-1 {
-            background-color: brown;
-            /* border-radius: 8px; */
-            height: 50vh;
-            width: 24vw;
+        .box {
+            background-color: crimson;
+              color: aliceblue;
+            font-weight: 900;
+            font-size: 48px;
         }
 
-        .ctn-child-2-2 {
-            background-color: rgb(55, 0, 255);
-            /* border-radius: 8px; */
-            height: 50vh;
-            width: 24vw;
+        #box-1 {
+            grid-row: span 51;
+        }
+
+        #box-2 {
+            grid-row: span 50;
+            background-color: rgb(255, 180, 7);
+        }
+        .ctn{
+            display: grid;
+            grid-template-columns: repeat(2,345px);
+            gap: 10px;
+        }
+        #box-3,#box-4{
+            grid-row: span 50;
+            background-color: blueviolet;
+        }
+        @media screen and (max-width:576px) {
+            .container{
+                grid-template-columns: repeat(1, 700px);
+            }
+            .ctn{
+                grid-template-columns: repeat(1,700px);
+            }
         }
     </style>
 </head>
@@ -44,22 +54,11 @@
 <body>
     <section>
         <div class="container">
-            <div class="child-1">
-                <div class="container-child-1">
-                     
-                </div>
-                <div class="container-child-2">
-                    <div class="ctn-ti">
-                        <div class="ctn-child-2-1">
-        
-                        </div>
-                        <div class="ctn-child-2-2">
-            
-                    </div>
-                </div>
-                
-            </div>
-           
+            <div class="box" id="box-1">1</div>
+            <div class="box" id="box-2">2</div>
+            <div class="ctn">
+                <div class="box" id="box-3">3</div>
+                <div class="box" id="box-4">4</div>
             </div>
         </div>
     </section>
