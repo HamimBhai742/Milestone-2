@@ -1,0 +1,33 @@
+.header,.nav,.artical,.sidebar,.advirtise,.footer{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 3px solid rgb(255, 132, 0);
+    padding: 20px;
+}
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+.artical{
+    grid-area: main;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.advirtise{
+    grid-area: advirtise;
+}
+.footer{
+    grid-area: footer;
+}
+body{
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+    "header header header header"
+    "nav    main     main   sidebar"
+    "nav     main     main   advirtise"
+    "footer footer    footer  footer";
+}
