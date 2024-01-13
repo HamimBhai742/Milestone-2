@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    /* margin-top: 15px; */
+}
+
+.banner {
+    height: 500px;
+}
+
+.second-part {
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+    height: 500px;
+}
+
+.second-part img {
+    flex: 1;
+}
+
+.scnd-p-2 {
+    height: 50%;
+}
+
+.third-sec {
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+    height: 500px;
+
+}
+.third-sec div img{
+    flex: 1;
+}
